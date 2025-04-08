@@ -1,0 +1,17 @@
+.date{
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.total_num{
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-right: 5px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.desc{
+    margin-top: 5px;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}

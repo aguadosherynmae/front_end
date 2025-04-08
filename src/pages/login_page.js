@@ -30,7 +30,7 @@ const LoginPage = () => {
       <Grid size={{ lg:6, xl:6}}>        
         <Box className="branding-section">
           <p className="logo-text">
-            Ride<span style={{ color: "#4DB6AC", background: "white", padding: "0 10px" }}>Sync</span>
+            Ride<span style={{ color: "#6ed2b8", background: "white", padding: "0 10px" }}>Sync</span>
           </p>
           <p className="tagline">
             The Smarter Way to Travel
@@ -69,7 +69,7 @@ const LoginPage = () => {
                 control={<Checkbox checked={showPassword} onChange={handleShowPassword} />}
                 label="Show Password"
               />
-              <Link href="#" underline="hover" sx={{ color: "#4DB6AC" }}>
+              <Link href="#" underline="hover" sx={{ color: "#6ed2b8" }}>
                 Forgot Password?
               </Link>
             </Box>

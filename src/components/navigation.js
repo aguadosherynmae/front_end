@@ -15,13 +15,9 @@ import PaymentIcon from '@mui/icons-material/Payment';
 import LogoutIcon from '@mui/icons-material/Logout';
 import SettingsIcon from '@mui/icons-material/Settings';
 import logoImage from '../assets/logo.png';
-import coopImage from '../assets/coop_img.png';
+import Avatar from '@mui/material/Avatar';
 
 const NAVIGATION: Navigation = [
-  {
-    kind: 'header',
-    title: 'Main items',
-  },
   {
     segment: 'dashboard',
     title: 'Dashboard',
@@ -79,7 +75,7 @@ const NAVIGATION: Navigation = [
   {
     segment: 'profile',
     title: 'Company Profile',
-    icon: <img src={coopImage} alt="Coop" style={{ height: 20 }} />,
+    icon: <Avatar sx={{ bgcolor: '#6ed2b8 !important', width: 25, height: 25, fontSize: 17 }}>P</Avatar>
   },
   {
     segment: 'security',
