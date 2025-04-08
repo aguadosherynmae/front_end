@@ -1,4 +1,10 @@
+import "../styles/style.css";
+
 function Drivers() {
-  return <div>Drivers</div>;
+  return (
+    <>
+      <p className='title_page'>List of Drivers</p>
+    </>
+  );
 }
-export default Drivers;
+export default Drivers;  

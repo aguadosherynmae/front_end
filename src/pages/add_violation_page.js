@@ -1,4 +1,10 @@
+import "../styles/style.css";
+
 function AddViolationPage() {
-  return <div>AddViolationPage</div>;
+  return (
+    <>
+      <p className='title_page'>Add Violation</p>
+    </>
+  );
 }
-export default AddViolationPage;
+export default AddViolationPage;  

@@ -1,4 +1,10 @@
+ import "../styles/style.css";
+
 function ViolationRecord() {
-  return <div>ViolationRecord</div>;
+  return (
+    <>
+      <p className='title_page'>Violation Records</p>
+    </>
+  );
 }
 export default ViolationRecord;  

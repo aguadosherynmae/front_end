@@ -1,4 +1,10 @@
+import "../styles/style.css";
+
 function ReportPage() {
-  return <div>ReportPage</div>;
+  return (
+    <>
+      <p className='title_page'>Driver Violation Reports</p>
+    </>
+  );
 }
-export default ReportPage;
+export default ReportPage;  

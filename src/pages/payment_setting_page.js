@@ -1,4 +1,10 @@
+import "../styles/style.css";
+
 function PaymentSetting() {
-  return <div>PaymentSetting</div>;
+  return (
+    <>
+      <p className='title_page'>Payment Setting</p>
+    </>
+  );
 }
-export default PaymentSetting;
+export default PaymentSetting;  

@@ -1,4 +1,10 @@
+import "../styles/style.css";
+
 function Feedbacks() {
-  return <div>Feedbacks</div>;
+  return (
+    <>
+      <p className='title_page'>Feedbacks</p>
+    </>
+  );
 }
-export default Feedbacks;
+export default Feedbacks;  

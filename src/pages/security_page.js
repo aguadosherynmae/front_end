@@ -1,4 +1,10 @@
+import "../styles/style.css";
+
 function SecurityPage() {
-  return <div>SecurityPage</div>;
+  return (
+    <>
+      <p className='title_page'>Security Setting</p>
+    </>
+  );
 }
 export default SecurityPage;  

@@ -1,4 +1,10 @@
+import "../styles/style.css";
+
 function ProfilePage() {
-  return <div>ProfilePage</div>;
+  return (
+    <>
+      <p className='title_page'>Company Profile</p>
+    </>
+  );
 }
-export default ProfilePage;
+export default ProfilePage;  
